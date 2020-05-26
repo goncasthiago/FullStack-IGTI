@@ -28,3 +28,7 @@ switch  (dia){
 }
 
 console.log(r);
+
+
+var resposta = a > b ? 'maior' : a < b ? 'menor' : 'igual';
+console.log(resposta)
