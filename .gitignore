@@ -4,3 +4,4 @@ npm-debug.log
 .env
 .DS_Store
 aula_vivo
+/aula_vivo/node_modules
