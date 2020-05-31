@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programação Assíncrona</title>
+</head>
+<body>
+<h1>Programação Assíncrona</h1>
+<h2>Introdução</h2>
+<p>Em JavaScript existem  operações que podem ser lentas como por exemplo:</p>
+<ul>
+    <li>Requisição de dados à APIs</li>
+    <li>Processamento intenso de dados</li>
+    <li>Comunicação com bancos de dados</li>
+</ul>
+<p>É extremamente importante que o JavaScript <strong>não espere o término de intruções lentas</strong></p>
+
+<p>A principal técnica para garantir a afirmação acima é a utilização do <strong>event loop</strong></p>
+
+<h2>Funções setTimeout e setInterval</h2>
+<strong>setTimeout</strong>
+<ul>
+<li>Utilizada para postergar a execução de uma função</li>
+<li>Tempo de atraso configurável em milissegundos</li>
+</ul>
+<strong>setInterval</strong>
+<ul>
+    <li>Semelhante ao setTimeout, mas repete a execução a cada x milissegundos</li>
+    <li>Pode ser cancelada com clerinterval</li>
+    <li>Para isso, devemos guardar a referência em uma variável</li>
+</ul>
+
+<h2>Contador</h2>
+<div id="timer"></div>
+
+
+<script src="./js/script.js"></script>
+</body>
+</html>
