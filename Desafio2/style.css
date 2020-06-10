@@ -1,0 +1,33 @@
+body,
+html {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container {
+	padding: 2rem;
+	display: flex;
+}
+
+h1 {
+	margin: 0px;
+	background-color: #246eb9;
+	padding: 10px;
+	color: #011936;
+}
+div {
+	color: #011936;
+}
+
+img {
+	width: 50px;
+	height: auto;
+}
+
+.todos-paises {
+	width: 50%;
+}
+
+.escolhidos {
+	width: 50%;
+}
